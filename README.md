@@ -44,3 +44,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### npm i -g npm-check-updates
 
 ### ncu -u
+
+### npm init @eslint/config

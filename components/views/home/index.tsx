@@ -1,16 +1,16 @@
-import React from 'react';
+import React from 'react'
 
 interface IPageProps {
-  theme: string;
+  theme: string
 }
-const Home = ({ theme }: IPageProps) => {
+const Home = ({ theme }: IPageProps): JSX.Element => {
   // ? the theme only used for revert color in images
-  console.log({ theme });
+  console.log({ theme })
   return (
     <div>
-      <p className={theme}>Home</p>
+      <p className={''}>Home</p>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
